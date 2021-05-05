@@ -23,7 +23,7 @@ public class ProductoRepository {
         return productoCrudRepository.findByCantidadStockLessThanAndEstado(cantidad, true);
     }
 
-    // Consult a specific producto with id
+    // Consult a specific product with id
     public Optional<Producto> getProducto(int idProducto){
         return productoCrudRepository.findById(idProducto);
     }
