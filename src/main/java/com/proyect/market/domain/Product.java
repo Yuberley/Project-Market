@@ -1,7 +1,7 @@
 package com.proyect.market.domain;
 
 public class Product {
-    private int Product;
+    private int productId;
     private String name;
     private int categoryId;
     private double price;
@@ -9,12 +9,12 @@ public class Product {
     private boolean active;
     private Category category;
 
-    public int getProduct() {
-        return Product;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setProduct(int product) {
-        Product = product;
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
     public String getName() {
