@@ -4,6 +4,7 @@ import com.proyect.market.domain.Category;
 import com.proyect.market.persistence.entity.Categoria;
 import org.mapstruct.*;
 
+// Mapper between persistence layer and domain
 @Mapper(componentModel = "spring")
 public interface CategoryMapper {
 
