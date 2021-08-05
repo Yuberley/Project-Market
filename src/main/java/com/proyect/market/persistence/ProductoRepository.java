@@ -17,7 +17,7 @@ public class ProductoRepository implements ProductRepository {
 
     // Consult all products
     @Override
-    public List<Product> getALL() {
+    public List<Product> getAll() {
         List<Producto> productos = (List<Producto>) productoCrudRepository.findAll();
         return mapper.toProducts(productos);
     }

@@ -7,7 +7,6 @@ import org.mapstruct.*;
 // Mapper between persistence layer and domain
 @Mapper(componentModel = "spring")
 public interface CategoryMapper {
-
     @Mappings({
             @Mapping(source = "idCategoria", target = "categoryId"),
             @Mapping(source = "descripcion", target = "category"),
